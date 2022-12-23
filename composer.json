@@ -1,5 +1,5 @@
 {
-    "name": "guilherme/BMI",
+    "name": "guilherme/bmi",
     "description": "Class package responsible for performing the BMI calculation",
     "keywords": [
         "BMI calculation", "Calc BMI", "calcular IMC"
