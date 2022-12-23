@@ -3,6 +3,13 @@
 Class package responsible for performing the BMI calculation
 
 
+##### Instalation
+
+Run:
+```bash
+composer require guilherme/bmi
+```
+
 ##### Usage 
 
 ```php
