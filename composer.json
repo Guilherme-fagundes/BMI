@@ -1,0 +1,14 @@
+{
+    "name": "guilherme/imc",
+    "description": "Calculadora de IMC",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Guilherme\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
