@@ -1,8 +1,16 @@
 {
-    "name": "guilherme/imc",
-    "description": "Calculadora de IMC",
+    "name": "guilherme/BMI",
+    "description": "Class package responsible for performing the BMI calculation",
+    "keywords": [
+        "BMI calculation", "Calc BMI", "calcular IMC"
+    ],
     "type": "library",
     "license": "MIT",
+    "author": {
+        "name": "Guilherme-Fagundes",
+        "email": "guilhermedev94@gmail.com",
+        "role": "web Developer / System Analyst"
+    },
     "autoload": {
         "psr-4": {
             "Guilherme\\": "src/"
