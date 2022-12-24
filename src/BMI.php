@@ -15,7 +15,7 @@ class BMI
     /**
      * result
      *
-     * @var mixed
+     * @var float|int
      */
     private $result;
     /**
@@ -76,7 +76,7 @@ class BMI
      * 
      * @return void
      */
-    public function calcImc()
+    public function calcBmi()
     {
         $this->result = $this->weight / ($this->height * $this->height);
     }
