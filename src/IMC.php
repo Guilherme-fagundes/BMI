@@ -2,14 +2,14 @@
 namespace Guilherme;
 
 /**
- * Name: IMC
+ * Name: BMI
  * Description: Classe responsável por realizar o cálcula de IMC
  * @author Guilherme K. Fagundes <guilhermede4v94@gmail.com>
  * @copyright 2022 Guilherme K. Fagundes
  * 
  * 
  */
-class IMC
+class BMI
 {
         
     /**

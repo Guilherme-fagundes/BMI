@@ -15,17 +15,17 @@ composer require guilherme/bmi
 ```php
 <?php
 
-use Guilherme\IMC;
+use Guilherme\BMI;
 
 require __DIR__. '/vendor/autoload.php';
 
-$imc = new IMC;
+$bmi = new BMI;
 
-$imc->setWeight(74);
-$imc->setHeight(1.75);
-$imc->calcImc();
+$bmi->setWeight(74);
+$bmi->setHeight(1.75);
+$bmi->calcImc();
 
-$imc->getResult();
+$bmi->getResult();
 
-var_dump($imc);
+var_dump($bmi);
 ```
