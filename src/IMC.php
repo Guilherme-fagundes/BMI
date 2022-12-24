@@ -2,7 +2,12 @@
 namespace Guilherme;
 
 /**
- * IMC
+ * Name: IMC
+ * Description: Classe responsável por realizar o cálcula de IMC
+ * @author Guilherme K. Fagundes <guilhermede4v94@gmail.com>
+ * @copyright 2022 Guilherme K. Fagundes
+ * 
+ * 
  */
 class IMC
 {
@@ -16,9 +21,14 @@ class IMC
     /**
      * weight
      *
-     * @var mixed
+     * @var float|int
      */
-    private $weight;
+    private $weight;    
+    /**
+     * height
+     *
+     * @var float|int
+     */
     private $height;
     
     /**
@@ -50,13 +60,22 @@ class IMC
     /**
      * Get result
      *
-     * @return  mixed
+     * Obtem o resultado do calculo de IMC
+     * 
+     * @return  float
      */ 
-    public function getResult()
+    public function getResult(): float
     {
         return $this->result;
     }
-
+    
+    /**
+     * calcImc
+     *
+     * Realiza o cálculo de IMC
+     * 
+     * @return void
+     */
     public function calcImc()
     {
         $this->result = $this->weight / ($this->height * $this->height);
